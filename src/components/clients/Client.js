@@ -11,7 +11,8 @@ export default class Client extends Component {
             })
     }
     render() {
-        let { id, lieu, name, poste, languages, begin, end, site, realisations, environnement, picture } = this.props.item;
+        // id, lieu, poste, languages, begin, end,
+        let {  name,  site, realisations, environnement, picture } = this.props.item;
         return (
             
             <div className="project">

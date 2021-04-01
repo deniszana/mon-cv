@@ -28,7 +28,8 @@ class ClientsList extends Component {
     }
 
     render() {
-        let {clients,radios,selectedRadio}  = this.state;
+        // ,radios,selectedRadio
+        let {clients}  = this.state;
         return (
             <div className="portfolioContent">
          {/*        <ul className="radioDisplay">

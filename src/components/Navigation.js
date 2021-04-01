@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/zana.jpeg" alt="photo de profil"/>
+                    <img src="./media/zana.jpeg" alt="profil" />
                     <h3>Denis ZANA</h3>
                 </div>
 
@@ -31,12 +31,12 @@ const Navigation = () => {
                         <span>Clients</span>
                     </NavLink>
                  </li>                  
-                 <li>
+{/*                  <li>
                     <NavLink exact to="/portfolio" activeClassName="navActive">
                         <i className="fas fa-images"></i>
                         <span>Porfolio</span>
                     </NavLink>
-                 </li>   
+                 </li>   */} 
                  <li>
                     <NavLink exact to="/contact" activeClassName="navActive">
                         <i className="fas fa-address-book"></i>
@@ -56,7 +56,7 @@ const Navigation = () => {
                 
                  
             <div className="signature">
-                <a href="http://1001portails.com" target="_blank"rel="noopener noreferer">Zana Denis</a>
+                <a href="http://1001portails.com" target="_blank" rel="noopener noreferrer">Zana Denis</a>
             </div>  
             </div>   
 
