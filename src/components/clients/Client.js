@@ -33,7 +33,7 @@ export default class Client extends Component {
                            </div>
                            <p className="text">
                                 <strong>Réalisations : </strong>
-                                { realisations }
+                                { realisations.replace('\n','<br/>') }
                             </p><p className="text">
                                 <strong>Environnement technique : </strong>
                                 {environnement}

@@ -10,7 +10,7 @@ const Home = () => {
                     <h1>Denis Zana</h1>
                     <h2>Developpeur FullStack</h2>
                     <div className="pdf">
-                        <a href="http://www.1001annonces.com/db-rama-eurl/ZANA_denis.doc" rel="noopener noreferrer" target="_blank">Telecharger le CV</a>
+                        <a href="http://cv.zana.free.fr/ZANA_denis.doc" rel="noopener noreferrer" target="_blank">Telecharger le CV</a>
                     </div>
                 </div>
             </div>

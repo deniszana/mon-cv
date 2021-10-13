@@ -31,12 +31,12 @@ const Navigation = () => {
                         <span>Clients</span>
                     </NavLink>
                  </li>                  
-{/*                  <li>
+                 <li>
                     <NavLink exact to="/portfolio" activeClassName="navActive">
                         <i className="fas fa-images"></i>
                         <span>Porfolio</span>
                     </NavLink>
-                 </li>   */} 
+                 </li>  
                  <li>
                     <NavLink exact to="/contact" activeClassName="navActive">
                         <i className="fas fa-address-book"></i>
